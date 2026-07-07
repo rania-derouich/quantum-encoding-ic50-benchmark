@@ -1,0 +1,54 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it using the metadata below."
+type: software
+title: "Quantum-Classical Hybrid ML for Breast Cancer Drug Response Prediction"
+abstract: >
+  Code accompanying the manuscript "Benchmarking Quantum Encoding Strategies
+  for Pharmacogenomic IC50 Regression: Angular, Amplitude, and Hybrid Approaches".
+  Implements quantum-classical hybrid pipelines using PennyLane with Random Forest,
+  MLP, Decision Tree, and Stacking regressors, optimised with COBYLA and
+  Differential Evolution on the GDSC and Anchor Combinations datasets.
+authors:
+  - family-names: "Derouich"
+    given-names: "Rania"
+    affiliation: "University of Sharjah"
+    orcid: "https://orcid.org/[YOUR-ORCID]"
+  - family-names: "Ben Yahia"
+    given-names: "Nesrine"
+    affiliation: "University of Sharjah"
+    orcid: "https://orcid.org/[SUPERVISOR-ORCID]"
+  - family-names: "[Third Author Last Name]"
+    given-names: "[Third Author First Name]"
+    affiliation: "University of Sharjah"
+    orcid: "https://orcid.org/[THIRD-ORCID]"
+repository-code: "https://github.com/[your-username]/[repo-name]"
+license: MIT
+version: "1.0.0"
+date-released: "2026-05-24"
+keywords:
+  - quantum machine learning
+  - drug response prediction
+  - IC50
+  - breast cancer
+  - PennyLane
+  - pharmacogenomics
+  - GDSC
+  - quantum encoding
+  - hybrid quantum-classical
+preferred-citation:
+  type: article
+  title: "Benchmarking Quantum Encoding Strategies for Pharmacogenomic IC50 Regression"
+  authors:
+    - family-names: "Derouich"
+      given-names: "Rania"
+      affiliation: "University of Sharjah"
+    - family-names: "Ben Yahia"
+      given-names: "Nesrine"
+      affiliation: "University of Sharjah"
+    - family-names: "[Third Author Last Name]"
+      given-names: "[Third Author First Name]"
+      affiliation: "University of Sharjah"
+  journal: "The Journal of Supercomputing"
+  publisher: "Springer"
+  year: 2026
+  doi: "[DOI once assigned]"
